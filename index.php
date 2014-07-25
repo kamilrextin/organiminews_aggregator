@@ -44,14 +44,14 @@
 
     // Multiple Feeds //
     $feed->set_feed_url(array(
-    //ttp://www.techjuice.pk/feed',
     'http://feeds.feedburner.com/HRExaminer?format=xml' ,
     'http://www.talentculture.com/feed/',
-     'http://blog.organimi.com/rss.xml' ,
-     'http://thecynicalgirl.com/feed/' ,
+    'http://blog.organimi.com/rss.xml' ,
+    'http://thecynicalgirl.com/feed/' ,
     'http://feeds.feedburner.com/tlnt?format=xml' ,
     'http://feeds.feedburner.com/HrBartender?format=xml',
     'http://www.businessweek.com/feeds/most-popular.rss' ,
+    'http://blogs.hbr.org/feed/' ,
     
  //   'http://feeds.feedburner.com/tlnt?format=xml'
     ));
