@@ -46,11 +46,12 @@
     $feed->set_feed_url(array(
     //ttp://www.techjuice.pk/feed',
     'http://feeds.feedburner.com/HRExaminer?format=xml' ,
-     'http://www.talentculture.com/feed/',
+    'http://www.talentculture.com/feed/',
      'http://blog.organimi.com/rss.xml' ,
-   // 'http://thecynicalgirl.com/feed/' ,
+     'http://thecynicalgirl.com/feed/' ,
     'http://feeds.feedburner.com/tlnt?format=xml' ,
     'http://feeds.feedburner.com/HrBartender?format=xml',
+    'http://www.businessweek.com/feeds/most-popular.rss' ,
     
  //   'http://feeds.feedburner.com/tlnt?format=xml'
     ));
@@ -83,7 +84,7 @@
 				
 				
 						<div class="site-title">
-							<h2><b>Organimi News Aggregator</b> - HR Industry News</h2>
+							<h2><b>Organimi News </b></h2> <h3 style="text-align:center">Curated News on Organizational Management, Organizational Design and HR Tech</h3>
 						</div><! --/site top -->
 						<?php $item = $feed->get_item(0); ?>
 							<div class="post">
@@ -120,6 +121,27 @@
                                 <p class="pull-right"><a <?php echo 'href="' . $item->get_permalink() . '"'; ?> <span class="glyphicon glyphicon-log-out"></span></a></p>
                             </div>
                         <?php $item = $feed->get_item(5); ?>
+                            <div class="post">
+                                    <h4><?php if ($item->get_permalink()) echo $item->get_title(); ?></h4>
+                                    <small><?php echo $item->get_date('j M Y, g:i a'); ?></small>
+                                <p class="pull-right"><a <?php echo 'href="' . $item->get_permalink() . '"'; ?> <span class="glyphicon glyphicon-log-out"></span></a></p>
+                            </div>
+
+                            <?php $item = $feed->get_item(6); ?>
+                            <div class="post">
+                                    <h4><?php if ($item->get_permalink()) echo $item->get_title(); ?></h4>
+                                    <small><?php echo $item->get_date('j M Y, g:i a'); ?></small>
+                                <p class="pull-right"><a <?php echo 'href="' . $item->get_permalink() . '"'; ?> <span class="glyphicon glyphicon-log-out"></span></a></p>
+                            </div>
+
+                            <?php $item = $feed->get_item(7); ?>
+                            <div class="post">
+                                    <h4><?php if ($item->get_permalink()) echo $item->get_title(); ?></h4>
+                                    <small><?php echo $item->get_date('j M Y, g:i a'); ?></small>
+                                <p class="pull-right"><a <?php echo 'href="' . $item->get_permalink() . '"'; ?> <span class="glyphicon glyphicon-log-out"></span></a></p>
+                            </div>
+
+                            <?php $item = $feed->get_item(8); ?>
                             <div class="post">
                                     <h4><?php if ($item->get_permalink()) echo $item->get_title(); ?></h4>
                                     <small><?php echo $item->get_date('j M Y, g:i a'); ?></small>
