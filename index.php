@@ -58,6 +58,7 @@
 
     // Multiple Feeds //
     $feed->set_feed_url(array(
+    'http://ayeletbaron.com/feed/' ,
     'http://feeds.feedburner.com/HRExaminer?format=xml' ,
     'http://www.talentculture.com/feed/',
     'http://blog.organimi.com/rss.xml' ,
