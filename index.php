@@ -31,8 +31,8 @@
     error_reporting(0); 
     
     // FEEDS FOR OUR DEMO, CHOOSE YOUR FAVORITES
-    $one = 'http://www.talentculture.com/feed/';
-    $two = "http://thecynicalgirl.com/feed/";
+  //  $one = 'http://www.talentculture.com/feed/';
+  //$two = "http://thecynicalgirl.com/feed/";
     
     // Include SimplePie
     include_once('autoloader.php');
@@ -179,5 +179,15 @@ FOOTER
        $.backstretch("assets/img/BlogBANNER.jpg", {speed: 500});
     </script>
     
+    <!-- Start of Async HubSpot Analytics Code -->
+  <script type="text/javascript">
+    (function(d,s,i,r) {
+      if (d.getElementById(i)){return;}
+      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+      n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/217889.js';
+      e.parentNode.insertBefore(n, e);
+    })(document,"script","hs-analytics",300000);
+  </script>
+<!-- End of Async HubSpot Analytics Code -->
   </body>
 </html>
