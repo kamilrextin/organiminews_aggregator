@@ -101,7 +101,7 @@
 				
 				
 						<div class="site-title">
-							<h2><b>Organimi News </b></h2> <h3 style="text-align:center">Curated News on Organizational Management, Organizational Design and HR Tech</h3>
+							<h2><b>Organimi News </b></h2> <h3 style="text-align:center">Curated News on Organizational Management, Organizational Design, Remote Work, Remote Teams and HR Tech</h3>
 						</div><! --/site top -->
 						<?php $item = $feed->get_item(0); ?>
 							<div class="post">
