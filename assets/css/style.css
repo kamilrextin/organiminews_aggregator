@@ -14,7 +14,7 @@
 
 body {
     background-color: #f2f2f2;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #555;
@@ -26,7 +26,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #333;
 }
@@ -104,22 +104,25 @@ a:after {
 	box-shadow: 5px 5px 5px #2f2f2f;
 }
 .site-title {
-	background: #1C75BC;
+	background: #358ee0;
 	margin-left: -15px;
 	margin-right: -15px;
 	padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .site-title h2 {
 	font-weight: 400;
 	color: white;
 	text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .site-footer {
 	margin-left: -15px;
 	margin-right: -15px;
 	text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .post {
@@ -129,6 +132,7 @@ a:after {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	border-bottom: 1px solid #ddd;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .post .pull-right {
