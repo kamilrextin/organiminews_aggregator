@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <title>Organimi News Aggregator</title>
+    <title>Organimi News Aggregator | HR Tech, Future of Work Organizational Design and Remote Teams</title>
 
     <!-- GOOGLE TRACKING CODE -->
     <script>
